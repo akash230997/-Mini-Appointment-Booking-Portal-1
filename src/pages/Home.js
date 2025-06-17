@@ -11,7 +11,7 @@ const Home = () => {
   ];
 
   return (
-    <div className="container">
+    <div className="container py-5">
       <h1 className="text-center mb-4 mt-5 text-primary">
         Mini Appointment Booking Portal
       </h1>

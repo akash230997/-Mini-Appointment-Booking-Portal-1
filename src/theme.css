@@ -1,0 +1,46 @@
+body {
+  background-color: #1a1a2e; /* deep dark blue */
+  color: #e0e0e0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4 {
+  color: #72ffff; /* thunder blue */
+}
+
+/* Form & Cards */
+.form-control,
+.form-select,
+.card,
+.btn {
+  background-color: #2a2a40 !important;
+  color: #ffffff !important;
+  border-color: #444 !important;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(114, 255, 255, 0.2);
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #72ffff;
+  box-shadow: 0 0 0 0.2rem rgba(114, 255, 255, 0.25);
+}
+
+.btn-primary {
+  background-color: #72ffff !important;
+  color: #1a1a2e !important;
+  font-weight: bold;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #5de0e6 !important;
+  color: #000 !important;
+}

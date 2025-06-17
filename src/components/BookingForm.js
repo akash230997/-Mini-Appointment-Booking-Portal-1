@@ -6,10 +6,16 @@ import axios from "axios";
 const BookingForm = ({ slots }) => {
   const [formData, setFormData] = useState({ name: "", email: "", time: "" });
   const navigate = useNavigate();
+  //   const apiUrl = process.env;
+  //   console.log("apiUrl : ", apiUrl);
+  //   console.log("apiUrl : ", process.env.REACT_APP_API_URL);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await axios.post("http://localhost:5000/api/bookings", formData);
+    await axios.post(
+      `https://mini-appointment-booking-portal-be.onrender.com/api/bookings`,
+      formData
+    );
     navigate("/confirmation");
   };
 
