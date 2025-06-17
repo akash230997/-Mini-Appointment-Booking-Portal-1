@@ -31,3 +31,16 @@ This is a full-stack appointment booking system built as part of a technical cha
 
 ---
 
+
+cd client
+npm install
+cp .env.example .env
+npm start
+
+🧑‍💼 Author
+Akash Meena
+Frontend & Backend Developer (MERN Stack)
+📬 Contact
+Email: akash.meena23@gmail.com
+LinkedIn: https://www.linkedin.com/in/akash-meena-79b94b113/
+
